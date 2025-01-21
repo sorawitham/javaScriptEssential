@@ -61,3 +61,26 @@ let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 
 console.log("Authentication Status:", authenticationStatus);
+
+/*
+ * practice task
+ */
+userType = "subscriber";
+
+switch (userType) {
+    case "employee":
+        console.log("Welcome employee. Dietary Services");
+        break;
+        
+    case "member":
+        console.log("Welcome member. Dietary Services, one-on-one interaction with a dietician");
+        break;
+        
+    case "subscriber":
+        console.log("Welcome subscriber. Partial Dietary Services");
+        break;
+        
+    case "new":
+        console.log("Welcome new user. Subscribe");
+        break;
+}
